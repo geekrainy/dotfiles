@@ -11,4 +11,5 @@ brew bundle
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
+ln -s $HOME/.dotfiles/.mackup $HOME/.mackup
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
