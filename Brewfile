@@ -22,6 +22,7 @@ cask "visual-studio-code"
 mas "1Password 7", id: 1333542190
 mas "OneDrive", id: 823766827
 mas "QQ", id: 451108668
+mas "QQ音乐", id: 595615424
 mas "Telegram", id: 747648890
 mas "WPS Office", id: 1443749478
 mas "微信", id: 836500024
