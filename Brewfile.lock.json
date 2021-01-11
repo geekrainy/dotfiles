@@ -5,13 +5,13 @@
         "revision": "72f41aae9b14d3603dd6d9a4e6bdecd871b5310a"
       },
       "homebrew/cask": {
-        "revision": "191f3b03dd376008db37f36aac7e26301bced390"
+        "revision": "5d003084a9f3d430872235224a0a2c0caf87fe6e"
       },
       "homebrew/cask-fonts": {
         "revision": "2317c54e4f52f3ff01f2a9f83ebc67b9483538e8"
       },
       "homebrew/cask-versions": {
-        "revision": "3ae77657dd5b0ae9b2e133ec8e34241ef10b578c"
+        "revision": "c221a583cf7e86dacbfc7451f57f3daa6c3e00da"
       },
       "homebrew/core": {
         "revision": "ebf42bd33d8e9f8ffd86d6015b69defe30aba700"
@@ -102,7 +102,7 @@
         }
       },
       "docker": {
-        "version": "3.0.4,51218",
+        "version": "3.0.3,51017",
         "options": {
           "full_name": "docker"
         }
@@ -120,7 +120,7 @@
         }
       },
       "google-chrome": {
-        "version": "87.0.4280.141,4280.141",
+        "version": "87.0.4280.88,4280.88",
         "options": {
           "full_name": "google-chrome"
         }
@@ -185,7 +185,7 @@
       },
       "QQ": {
         "id": "451108668",
-        "version": "6.7.3"
+        "version": "6.7.2"
       },
       "QQ音乐": {
         "id": "595615424",
@@ -206,6 +206,10 @@
       "钉钉": {
         "id": "1435447041",
         "version": "5.1.38"
+      },
+      "Microsoft To Do": {
+        "id": "1274495053",
+        "version": "2.34"
       }
     }
   },
@@ -218,6 +222,14 @@
         "CLT": "12.3.0.0.1.1607026830",
         "Xcode": "12.0",
         "macOS": "11.1"
+      },
+      "catalina": {
+        "HOMEBREW_VERSION": "2.7.2",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "ebf42bd33d8e9f8ffd86d6015b69defe30aba700",
+        "CLT": "12.3.0.0.1.1607026830",
+        "Xcode": "12.0",
+        "macOS": "10.15.7"
       }
     }
   }
