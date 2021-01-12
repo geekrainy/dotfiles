@@ -5,16 +5,16 @@
         "revision": "72f41aae9b14d3603dd6d9a4e6bdecd871b5310a"
       },
       "homebrew/cask": {
-        "revision": "5d003084a9f3d430872235224a0a2c0caf87fe6e"
+        "revision": "76cbb4433ba90c7133ac47df169f02a47d63f9eb"
       },
       "homebrew/cask-fonts": {
-        "revision": "2317c54e4f52f3ff01f2a9f83ebc67b9483538e8"
+        "revision": "f9cabb8f2de5547959293ea019e6563e4dfc9afe"
       },
       "homebrew/cask-versions": {
-        "revision": "c221a583cf7e86dacbfc7451f57f3daa6c3e00da"
+        "revision": "a6be4f641b1700a8581b751ea103b8359541c639"
       },
       "homebrew/core": {
-        "revision": "ebf42bd33d8e9f8ffd86d6015b69defe30aba700"
+        "revision": "3ed9ff27bdd8057d9559670768c6e8bd65835dae"
       }
     },
     "brew": {
@@ -102,7 +102,7 @@
         }
       },
       "docker": {
-        "version": "3.0.3,51017",
+        "version": "3.0.4,51218",
         "options": {
           "full_name": "docker"
         }
@@ -120,7 +120,7 @@
         }
       },
       "google-chrome": {
-        "version": "87.0.4280.88,4280.88",
+        "version": "87.0.4280.141,4280.141",
         "options": {
           "full_name": "google-chrome"
         }
@@ -185,7 +185,7 @@
       },
       "QQ": {
         "id": "451108668",
-        "version": "6.7.2"
+        "version": "6.7.3"
       },
       "QQ音乐": {
         "id": "595615424",
@@ -197,7 +197,7 @@
       },
       "WPS Office": {
         "id": "1443749478",
-        "version": "3.1.1"
+        "version": "3.2.0"
       },
       "微信": {
         "id": "836500024",
@@ -205,11 +205,15 @@
       },
       "钉钉": {
         "id": "1435447041",
-        "version": "5.1.38"
+        "version": "5.1.40"
       },
       "Microsoft To Do": {
         "id": "1274495053",
         "version": "2.34"
+      },
+      "XMind": {
+        "id": "1327661892",
+        "version": "10.2.1"
       }
     }
   },
@@ -218,7 +222,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "2.7.2",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "ebf42bd33d8e9f8ffd86d6015b69defe30aba700",
+        "Homebrew/homebrew-core": "3ed9ff27bdd8057d9559670768c6e8bd65835dae",
         "CLT": "12.3.0.0.1.1607026830",
         "Xcode": "12.0",
         "macOS": "11.1"
