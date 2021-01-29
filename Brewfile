@@ -20,9 +20,11 @@ cask "notion"
 cask "shadowsocksx-ng"
 cask "sogouinput"
 cask "sourcetree"
+cask "thunder"
 cask "tunnelblick"
 cask "v2rayu"
 cask "visual-studio-code"
+cask "vmware-fusion"
 mas "1Password 7", id: 1333542190
 mas "Microsoft To Do", id: 1274495053
 mas "OneDrive", id: 823766827
