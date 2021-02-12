@@ -32,6 +32,7 @@ mas "QQ", id: 451108668
 mas "QQ音乐", id: 595615424
 mas "Telegram", id: 747648890
 mas "WPS Office", id: 1443749478
+mas "Xcode", id: 497799835
 mas "XMind", id: 1327661892
 mas "微信", id: 836500024
 mas "钉钉", id: 1435447041
