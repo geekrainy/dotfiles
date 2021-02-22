@@ -17,6 +17,7 @@ cask "google-chrome"
 cask "gpg-suite-no-mail"
 cask "iterm2"
 cask "notion"
+cask "powerphotos"
 cask "shadowsocksx-ng"
 cask "sogouinput"
 cask "sourcetree"
@@ -28,6 +29,7 @@ cask "vmware-fusion"
 mas "1Password 7", id: 1333542190
 mas "Microsoft To Do", id: 1274495053
 mas "OneDrive", id: 823766827
+mas "Photos Duplicate Cleaner", id: 592704001
 mas "QQ", id: 451108668
 mas "QQ音乐", id: 595615424
 mas "Telegram", id: 747648890
