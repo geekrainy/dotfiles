@@ -7,6 +7,9 @@ export DOTFILES="$HOME/.dotfiles"
 export HOMEBREW_BUNDLE_FILE="$DOTFILES/Brewfile"
 export CODEDIR="$HOME/Code"
 
+# Development
+export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=1
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME

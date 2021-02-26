@@ -2,19 +2,19 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "72f41aae9b14d3603dd6d9a4e6bdecd871b5310a"
+        "revision": "694ecbd1ee04a8feb079c4d82ac4a331cb2840bb"
       },
       "homebrew/cask": {
-        "revision": "c9e1c8fbbacaa9785e23890e892cbdc55785119d"
+        "revision": "87720392b0ccedff2cbee4a7b03aa5602b3cb9aa"
       },
       "homebrew/cask-fonts": {
-        "revision": "49d3f9868dce335d8ac0606f7aff864bbc5eb2ca"
+        "revision": "a9c4c398c0cf340423c3a424e1cdcfc744bd0281"
       },
       "homebrew/cask-versions": {
-        "revision": "876837852ad7f354e328e36a5af05ab5d0468046"
+        "revision": "b3ea5839dba854871f2b06fb116c27d99a9e5f3c"
       },
       "homebrew/core": {
-        "revision": "b0980f4aa35118010f253b3dc2b290ad6a36e144"
+        "revision": "02f4a2ef470fa7ec920cdb5eaea632f5e7c260a6"
       }
     },
     "brew": {
@@ -24,13 +24,13 @@
           "cellar": ":any_skip_relocation",
           "prefix": "/usr/local",
           "files": {
-            "big_sur": {
-              "url": "https://homebrew.bintray.com/bottles/mackup-0.8.32.big_sur.bottle.tar.gz",
-              "sha256": "24dca4cbc991aad8990c672e7a88fd975f33fefcdb0dbb70f9e6e0b10a19841d"
-            },
             "arm64_big_sur": {
               "url": "https://homebrew.bintray.com/bottles/mackup-0.8.32.arm64_big_sur.bottle.tar.gz",
               "sha256": "be968ec450c3e2c28255f2c6e7928404e24498c907a05aed69e5a87e6ae8612e"
+            },
+            "big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/mackup-0.8.32.big_sur.bottle.tar.gz",
+              "sha256": "24dca4cbc991aad8990c672e7a88fd975f33fefcdb0dbb70f9e6e0b10a19841d"
             },
             "catalina": {
               "url": "https://homebrew.bintray.com/bottles/mackup-0.8.32.catalina.bottle.tar.gz",
@@ -65,26 +65,26 @@
         }
       },
       "wget": {
-        "version": "1.21",
+        "version": "1.21.1",
         "bottle": {
           "cellar": "/usr/local/Cellar",
           "prefix": "/usr/local",
           "files": {
-            "big_sur": {
-              "url": "https://homebrew.bintray.com/bottles/wget-1.21.big_sur.bottle.tar.gz",
-              "sha256": "eb830909eed1e6d861968f324fd0701883df44f9d6e191c4e5ebbe2635cc70e7"
-            },
             "arm64_big_sur": {
-              "url": "https://homebrew.bintray.com/bottles/wget-1.21.arm64_big_sur.bottle.tar.gz",
-              "sha256": "2824baa832bb6abe003371d42bab24df5afab5e4076922b2300a90a98526990b"
+              "url": "https://homebrew.bintray.com/bottles/wget-1.21.1.arm64_big_sur.bottle.tar.gz",
+              "sha256": "e9034fc9062d5d28972135be031876672aff18fa945ce37e9c2ee1e2c4287f3a"
+            },
+            "big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/wget-1.21.1.big_sur.bottle.tar.gz",
+              "sha256": "e6ea2a50b8196206f7072360e713535bb16fb786c8b5fe23cab05757e0f67b13"
             },
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/wget-1.21.catalina.bottle.tar.gz",
-              "sha256": "d163d32bba98f0a535d179c5d8efd076d12f41bd9232f5c0a41523a4eeaeb500"
+              "url": "https://homebrew.bintray.com/bottles/wget-1.21.1.catalina.bottle.tar.gz",
+              "sha256": "88116cb28d6b85e441d1bb9df0a1454b84f8b9d0e8817a5bee0f228acc59e75a"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/wget-1.21.mojave.bottle.tar.gz",
-              "sha256": "6343b9c76468bf9ba05e587403b378b1bb93e5108c6505abef4eaaee92257e22"
+              "url": "https://homebrew.bintray.com/bottles/wget-1.21.1.mojave.bottle.tar.gz",
+              "sha256": "ae4e6f1dc4ecaf2bbed7700e8d64cdc671bf9d6c085ba335f119861fd15956fe"
             }
           }
         }
@@ -102,13 +102,13 @@
         }
       },
       "docker": {
-        "version": "3.0.3,51017",
+        "version": "3.1.0,51484",
         "options": {
           "full_name": "docker"
         }
       },
       "dropbox": {
-        "version": "112.4.321",
+        "version": "115.4.601",
         "options": {
           "full_name": "dropbox"
         }
@@ -120,7 +120,7 @@
         }
       },
       "google-chrome": {
-        "version": "87.0.4280.88,4280.88",
+        "version": "88.0.4324.150,4324.150",
         "options": {
           "full_name": "google-chrome"
         }
@@ -162,13 +162,13 @@
         }
       },
       "visual-studio-code": {
-        "version": "1.52.1",
+        "version": "1.53.0",
         "options": {
           "full_name": "visual-studio-code"
         }
       },
       "figma": {
-        "version": "93.1.0",
+        "version": "93.4.0",
         "options": {
           "full_name": "figma"
         }
@@ -177,6 +177,36 @@
         "version": "latest",
         "options": {
           "full_name": "firefox-developer-edition"
+        }
+      },
+      "notion": {
+        "version": "2.0.11",
+        "options": {
+          "full_name": "notion"
+        }
+      },
+      "sourcetree": {
+        "version": "4.0.2,236",
+        "options": {
+          "full_name": "sourcetree"
+        }
+      },
+      "thunder": {
+        "version": "3.4.1.4368",
+        "options": {
+          "full_name": "thunder"
+        }
+      },
+      "vmware-fusion": {
+        "version": "12.1.0-17195230",
+        "options": {
+          "full_name": "vmware-fusion"
+        }
+      },
+      "powerphotos": {
+        "version": null,
+        "options": {
+          "full_name": "powerphotos"
         }
       }
     },
@@ -191,23 +221,23 @@
       },
       "QQ": {
         "id": "451108668",
-        "version": "6.7.2"
+        "version": "6.7.3"
       },
       "QQ音乐": {
         "id": "595615424",
-        "version": "7.4.0"
+        "version": "7.5.0"
       },
       "Telegram": {
         "id": "747648890",
-        "version": "7.3"
+        "version": "7.4"
       },
       "WPS Office": {
         "id": "1443749478",
-        "version": "3.1.1"
+        "version": "3.3.1"
       },
       "微信": {
         "id": "836500024",
-        "version": "2.5.0"
+        "version": "2.6.1"
       },
       "钉钉": {
         "id": "1435447041",
@@ -215,23 +245,31 @@
       },
       "Microsoft To Do": {
         "id": "1274495053",
-        "version": "2.35"
+        "version": "2.38"
       },
       "XMind": {
         "id": "1327661892",
-        "version": "10.2.1"
+        "version": "10.3.1"
+      },
+      "Photos Duplicate Cleaner": {
+        "id": "592704001",
+        "version": "2.5"
+      },
+      "Xcode": {
+        "id": "497799835",
+        "version": "12.4"
       }
     }
   },
   "system": {
     "macos": {
       "big_sur": {
-        "HOMEBREW_VERSION": "2.7.2",
+        "HOMEBREW_VERSION": "3.0.0",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "3ed9ff27bdd8057d9559670768c6e8bd65835dae",
-        "CLT": "12.3.0.0.1.1607026830",
-        "Xcode": "12.0",
-        "macOS": "11.1"
+        "Homebrew/homebrew-core": "02f4a2ef470fa7ec920cdb5eaea632f5e7c260a6",
+        "CLT": "12.4.0.0.1.1610135815",
+        "Xcode": "12.4",
+        "macOS": "11.2"
       },
       "catalina": {
         "HOMEBREW_VERSION": "2.7.3",
