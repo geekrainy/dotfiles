@@ -9,6 +9,9 @@ brew update
 brew tap homebrew/bundle
 brew bundle
 
+# Install nvm
+git clone https://github.com/nvm-sh/nvm.git .nvm
+
 # Link zsh files
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
