@@ -2,27 +2,29 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "694ecbd1ee04a8feb079c4d82ac4a331cb2840bb"
+        "revision": "3fbca9f51db8e7255f4b2f48daba1e04a2d99ad6"
       },
       "homebrew/cask": {
-        "revision": "87720392b0ccedff2cbee4a7b03aa5602b3cb9aa"
+        "revision": "7f762ba5fe3ffdc8e007bd45bdaf11607ac42966"
       },
       "homebrew/cask-fonts": {
-        "revision": "a9c4c398c0cf340423c3a424e1cdcfc744bd0281"
+        "revision": "cec5e629e98240adbccb4aef0193f4915e246311"
       },
       "homebrew/cask-versions": {
-        "revision": "b3ea5839dba854871f2b06fb116c27d99a9e5f3c"
+        "revision": "31c7ff905c5c7b15ad5f1db2c90d5490fff36dd7"
       },
       "homebrew/core": {
-        "revision": "02f4a2ef470fa7ec920cdb5eaea632f5e7c260a6"
+        "revision": "5dfbcc9e91f7d6400d45c43c3ee7eb25c7c5e21c"
       }
     },
     "brew": {
       "mackup": {
         "version": "0.8.32",
         "bottle": {
+          "rebuild": 0,
           "cellar": ":any_skip_relocation",
           "prefix": "/usr/local",
+          "root_url": "https://homebrew.bintray.com/bottles",
           "files": {
             "arm64_big_sur": {
               "url": "https://homebrew.bintray.com/bottles/mackup-0.8.32.arm64_big_sur.bottle.tar.gz",
@@ -44,22 +46,24 @@
         }
       },
       "mas": {
-        "version": "1.7.1",
+        "version": "1.8.0",
         "bottle": {
+          "rebuild": 0,
           "cellar": ":any",
           "prefix": "/usr/local",
+          "root_url": "https://homebrew.bintray.com/bottles",
           "files": {
+            "arm64_big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/mas-1.8.0.arm64_big_sur.bottle.tar.gz",
+              "sha256": "ef2ed904d1283722af006811471484cb1c9c73b255a766b5c0c65ecd1654c8d8"
+            },
             "big_sur": {
-              "url": "https://homebrew.bintray.com/bottles/mas-1.7.1.big_sur.bottle.tar.gz",
-              "sha256": "432091a534d0a1f753fcf953fb1c20c10ef5762b7f8922cb378c3dcd36898d30"
+              "url": "https://homebrew.bintray.com/bottles/mas-1.8.0.big_sur.bottle.tar.gz",
+              "sha256": "dc98d69cfa94467e046b443c088a6097fe0ce0d2935e37046815fa3a984a0ca4"
             },
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/mas-1.7.1.catalina.bottle.tar.gz",
-              "sha256": "e6de2f98ebd21885a9827664fe1b7eea5516a7fd75d5b7383e3a9b088591a27f"
-            },
-            "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/mas-1.7.1.mojave.bottle.tar.gz",
-              "sha256": "8b6dc4e261ebdc8e2f93afe87da3db4d482eb3d8a0358ab19a0485d434550e77"
+              "url": "https://homebrew.bintray.com/bottles/mas-1.8.0.catalina.bottle.tar.gz",
+              "sha256": "2e7ffedf674543f98c2b95868b6a23db208cb2e6a3ec1ddbb3553ddab0cf9a68"
             }
           }
         }
@@ -67,8 +71,10 @@
       "wget": {
         "version": "1.21.1",
         "bottle": {
+          "rebuild": 0,
           "cellar": "/usr/local/Cellar",
           "prefix": "/usr/local",
+          "root_url": "https://homebrew.bintray.com/bottles",
           "files": {
             "arm64_big_sur": {
               "url": "https://homebrew.bintray.com/bottles/wget-1.21.1.arm64_big_sur.bottle.tar.gz",
@@ -102,15 +108,27 @@
         }
       },
       "docker": {
-        "version": "3.1.0,51484",
+        "version": "3.2.1,61626",
         "options": {
           "full_name": "docker"
         }
       },
       "dropbox": {
-        "version": "115.4.601",
+        "version": "117.4.378",
         "options": {
           "full_name": "dropbox"
+        }
+      },
+      "figma": {
+        "version": "95.7.0",
+        "options": {
+          "full_name": "figma"
+        }
+      },
+      "firefox-developer-edition": {
+        "version": "latest",
+        "options": {
+          "full_name": "firefox-developer-edition"
         }
       },
       "font-hack": {
@@ -120,7 +138,7 @@
         }
       },
       "google-chrome": {
-        "version": "88.0.4324.150,4324.150",
+        "version": "89.0.4389.82,4389.82",
         "options": {
           "full_name": "google-chrome"
         }
@@ -132,7 +150,7 @@
         }
       },
       "iterm2": {
-        "version": "3.4.3",
+        "version": "3.4.4",
         "options": {
           "full_name": "iterm2"
         }
@@ -143,50 +161,8 @@
           "full_name": "shadowsocksx-ng"
         }
       },
-      "sogouinput": {
-        "version": "58a,1588947491",
-        "options": {
-          "full_name": "sogouinput"
-        }
-      },
-      "tunnelblick": {
-        "version": "3.8.4a,5601",
-        "options": {
-          "full_name": "tunnelblick"
-        }
-      },
-      "v2rayu": {
-        "version": "2.3.1",
-        "options": {
-          "full_name": "v2rayu"
-        }
-      },
-      "visual-studio-code": {
-        "version": "1.53.0",
-        "options": {
-          "full_name": "visual-studio-code"
-        }
-      },
-      "figma": {
-        "version": "93.4.0",
-        "options": {
-          "full_name": "figma"
-        }
-      },
-      "firefox-developer-edition": {
-        "version": "latest",
-        "options": {
-          "full_name": "firefox-developer-edition"
-        }
-      },
-      "notion": {
-        "version": "2.0.11",
-        "options": {
-          "full_name": "notion"
-        }
-      },
       "sourcetree": {
-        "version": "4.0.2,236",
+        "version": "4.1.0,237",
         "options": {
           "full_name": "sourcetree"
         }
@@ -197,16 +173,22 @@
           "full_name": "thunder"
         }
       },
+      "tunnelblick": {
+        "version": "3.8.4a,5601",
+        "options": {
+          "full_name": "tunnelblick"
+        }
+      },
+      "visual-studio-code": {
+        "version": "1.54.1",
+        "options": {
+          "full_name": "visual-studio-code"
+        }
+      },
       "vmware-fusion": {
         "version": "12.1.0-17195230",
         "options": {
           "full_name": "vmware-fusion"
-        }
-      },
-      "powerphotos": {
-        "version": null,
-        "options": {
-          "full_name": "powerphotos"
         }
       }
     },
@@ -214,6 +196,10 @@
       "1Password 7": {
         "id": "1333542190",
         "version": "7.7"
+      },
+      "Microsoft To Do": {
+        "id": "1274495053",
+        "version": "2.38.1"
       },
       "OneDrive": {
         "id": "823766827",
@@ -229,11 +215,15 @@
       },
       "Telegram": {
         "id": "747648890",
-        "version": "7.4"
+        "version": "7.5.1"
       },
-      "WPS Office": {
-        "id": "1443749478",
-        "version": "3.3.1"
+      "Xcode": {
+        "id": "497799835",
+        "version": "12.4"
+      },
+      "XMind": {
+        "id": "1327661892",
+        "version": "10.3.1"
       },
       "微信": {
         "id": "836500024",
@@ -242,42 +232,18 @@
       "钉钉": {
         "id": "1435447041",
         "version": "5.1.40"
-      },
-      "Microsoft To Do": {
-        "id": "1274495053",
-        "version": "2.38"
-      },
-      "XMind": {
-        "id": "1327661892",
-        "version": "10.3.1"
-      },
-      "Photos Duplicate Cleaner": {
-        "id": "592704001",
-        "version": "2.5"
-      },
-      "Xcode": {
-        "id": "497799835",
-        "version": "12.4"
       }
     }
   },
   "system": {
     "macos": {
       "big_sur": {
-        "HOMEBREW_VERSION": "3.0.0",
+        "HOMEBREW_VERSION": "3.0.4",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "02f4a2ef470fa7ec920cdb5eaea632f5e7c260a6",
+        "Homebrew/homebrew-core": "5dfbcc9e91f7d6400d45c43c3ee7eb25c7c5e21c",
         "CLT": "12.4.0.0.1.1610135815",
         "Xcode": "12.4",
-        "macOS": "11.2"
-      },
-      "catalina": {
-        "HOMEBREW_VERSION": "2.7.3",
-        "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "b0980f4aa35118010f253b3dc2b290ad6a36e144",
-        "CLT": "12.3.0.0.1.1607026830",
-        "Xcode": "12.0",
-        "macOS": "10.15.7"
+        "macOS": "11.2.2"
       }
     }
   }
