@@ -7,6 +7,7 @@ brew "mackup"
 brew "mas"
 brew "wget"
 brew "yarn"
+cask "baidunetdisk"
 cask "bluestacks"
 cask "cyberduck"
 cask "dash4"
@@ -30,10 +31,12 @@ mas "Microsoft Excel", id: 462058435
 mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft To Do", id: 1274495053
 mas "Microsoft Word", id: 462054704
+mas "Notability", id: 360593530
 mas "OneDrive", id: 823766827
 mas "QQ", id: 451108668
 mas "QQ音乐", id: 595615424
 mas "Telegram", id: 747648890
+mas "The Unarchiver", id: 425424353
 mas "Xcode", id: 497799835
 mas "XMind", id: 1327661892
 mas "微信", id: 836500024
