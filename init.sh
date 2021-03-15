@@ -10,7 +10,7 @@ brew tap homebrew/bundle
 brew bundle
 
 # Install nvm
-git clone https://github.com/nvm-sh/nvm.git .nvm
+git clone https://github.com/nvm-sh/nvm.git $HOME/.nvm
 
 # Link zsh files
 rm -rf $HOME/.zshrc
