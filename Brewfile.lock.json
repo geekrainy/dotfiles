@@ -5,16 +5,16 @@
         "revision": "3fbca9f51db8e7255f4b2f48daba1e04a2d99ad6"
       },
       "homebrew/cask": {
-        "revision": "7f762ba5fe3ffdc8e007bd45bdaf11607ac42966"
+        "revision": "0e0d94d79d4b1988bf0a0e850cf1a609f4a0c44c"
       },
       "homebrew/cask-fonts": {
-        "revision": "cec5e629e98240adbccb4aef0193f4915e246311"
+        "revision": "9899ab349852a15fbc634721356bec10e05d5f11"
       },
       "homebrew/cask-versions": {
-        "revision": "31c7ff905c5c7b15ad5f1db2c90d5490fff36dd7"
+        "revision": "2efa6012b18750f63fc286b78fa8afd5c4b4e9d0"
       },
       "homebrew/core": {
-        "revision": "5dfbcc9e91f7d6400d45c43c3ee7eb25c7c5e21c"
+        "revision": "0ab28b6b836c125813f6b8c088bef8c36b7249b0"
       }
     },
     "brew": {
@@ -180,7 +180,7 @@
         }
       },
       "visual-studio-code": {
-        "version": "1.54.1",
+        "version": "1.54.2",
         "options": {
           "full_name": "visual-studio-code"
         }
@@ -190,20 +190,44 @@
         "options": {
           "full_name": "vmware-fusion"
         }
+      },
+      "baidunetdisk": {
+        "version": "3.6.5",
+        "options": {
+          "full_name": "baidunetdisk"
+        }
+      },
+      "bluestacks": {
+        "version": "4.240.5.2918,c72df965bb755c78ee4aa0dfd65a169b",
+        "options": {
+          "full_name": "bluestacks"
+        }
+      },
+      "cyberduck": {
+        "version": "7.8.2,34203",
+        "options": {
+          "full_name": "cyberduck"
+        }
+      },
+      "virtualbox": {
+        "version": "6.1.18,142142",
+        "options": {
+          "full_name": "virtualbox"
+        }
       }
     },
     "mas": {
       "1Password 7": {
         "id": "1333542190",
-        "version": "7.7"
+        "version": "7.8"
       },
       "Microsoft To Do": {
         "id": "1274495053",
-        "version": "2.38.1"
+        "version": "2.39.1"
       },
       "OneDrive": {
         "id": "823766827",
-        "version": "20.169.0823"
+        "version": "21.030.0211"
       },
       "QQ": {
         "id": "451108668",
@@ -232,18 +256,42 @@
       "钉钉": {
         "id": "1435447041",
         "version": "5.1.40"
+      },
+      "Microsoft Excel": {
+        "id": "462058435",
+        "version": "16.46"
+      },
+      "Microsoft PowerPoint": {
+        "id": "462062816",
+        "version": "16.46"
+      },
+      "Microsoft Word": {
+        "id": "462054704",
+        "version": "16.46"
+      },
+      "Notability": {
+        "id": "360593530",
+        "version": "10.3.1"
+      },
+      "The Unarchiver": {
+        "id": "425424353",
+        "version": "4.2.4"
+      },
+      "白描": {
+        "id": "1249901692",
+        "version": "3.1.3"
       }
     }
   },
   "system": {
     "macos": {
       "big_sur": {
-        "HOMEBREW_VERSION": "3.0.4",
+        "HOMEBREW_VERSION": "3.0.5",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "5dfbcc9e91f7d6400d45c43c3ee7eb25c7c5e21c",
+        "Homebrew/homebrew-core": "0ab28b6b836c125813f6b8c088bef8c36b7249b0",
         "CLT": "12.4.0.0.1.1610135815",
         "Xcode": "12.4",
-        "macOS": "11.2.2"
+        "macOS": "11.2.3"
       }
     }
   }

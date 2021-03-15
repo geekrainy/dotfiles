@@ -18,6 +18,11 @@ git clone https://github.com/geekrainy/dotfiles.git ~/.dotfiles
 
 ## 手动安装
 
-- nvm
 - oh-my-zsh
 - rust 环境
+
+## yarn global package
+
+- npmrc
+- lerna
+- yalc
