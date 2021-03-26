@@ -19,3 +19,7 @@ ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 # Link mackup configuration files
 ln -s $HOME/.dotfiles/.mackup $HOME/.mackup
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
+
+# Link yarn global packages list
+ln -s $HOME/.dotfiles/yarn/package.json $HOME/.config/yarn/global/package.json
+ln -s $HOME/.dotfiles/yarn/yarn.lock $HOME/.config/yarn/global/yarn.lock
