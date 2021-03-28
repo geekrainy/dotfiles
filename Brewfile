@@ -27,6 +27,7 @@ cask "virtualbox"
 cask "visual-studio-code"
 cask "vmware-fusion"
 mas "1Password 7", id: 1333542190
+mas "Gemini 2", id: 1090488118
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft To Do", id: 1274495053
