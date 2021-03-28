@@ -20,9 +20,3 @@ git clone https://github.com/geekrainy/dotfiles.git ~/.dotfiles
 
 - oh-my-zsh
 - rust 环境
-
-## yarn global package
-
-- npmrc
-- lerna
-- yalc

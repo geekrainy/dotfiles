@@ -9,9 +9,6 @@ brew update
 brew tap homebrew/bundle
 brew bundle
 
-# Install nvm
-git clone https://github.com/nvm-sh/nvm.git $HOME/.nvm
-
 # Link zsh files
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
@@ -23,3 +20,9 @@ ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 # Link yarn global packages list
 ln -s $HOME/.dotfiles/yarn/package.json $HOME/.config/yarn/global/package.json
 ln -s $HOME/.dotfiles/yarn/yarn.lock $HOME/.config/yarn/global/yarn.lock
+
+# Install nvm
+git clone https://github.com/nvm-sh/nvm.git $HOME/.nvm
+
+# Install yarn global packages
+yarn global add
